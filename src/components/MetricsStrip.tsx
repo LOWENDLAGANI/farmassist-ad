@@ -1,26 +1,34 @@
-import { ArrowUpRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sprout } from 'lucide-react';
+
+const metrics = [
+  { value: '4', unit: '', label: 'Sensors tracked in real time' },
+  { value: '2,840', unit: '+', label: 'Data points per session' },
+  { value: '98.6', unit: '%', label: 'Uptime reliability' },
+];
 
 export default function MetricsStrip() {
   return (
-    <section className="metrics-strip" id="technology">
+    <section className="metrics-strip">
       <div className="strip-intro">
-        <Sparkles size={18} />
-        <span>One robot.<br />A clearer future.</span>
+        <Sprout size={18} />
+        <span>
+          FarmAssist monitors your soil, water, light and temperature so you
+          can focus on growing — not guessing.
+        </span>
       </div>
-      <div className="metric">
-        <strong>35<span>%</span></strong>
-        <small>less water used</small>
-      </div>
-      <div className="metric">
-        <strong>2.4<span>×</span></strong>
-        <small>faster crop scouting</small>
-      </div>
-      <div className="metric">
-        <strong>24<span>/7</span></strong>
-        <small>field intelligence</small>
-      </div>
+
+      {metrics.map((m) => (
+        <div className="metric" key={m.label}>
+          <strong>
+            {m.value}
+            <span>{m.unit}</span>
+          </strong>
+          <small>{m.label}</small>
+        </div>
+      ))}
+
       <div className="strip-arrow">
-        <ArrowUpRight size={23} />
+        <ArrowRight size={15} />
       </div>
     </section>
   );

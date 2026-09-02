@@ -5,9 +5,6 @@ export default function Monitoring() {
     <section className="monitoring-section" id="monitoring">
       <div className="section-heading">
         <div>
-          <div className="eyebrow muted">
-            <span className="pulse-dot" /> FarmAssist command center
-          </div>
           <h2>Know your fields<br /><em>at a glance.</em></h2>
         </div>
         <p>Every reading. Every row. One calm, clear view of what your crops need next.</p>

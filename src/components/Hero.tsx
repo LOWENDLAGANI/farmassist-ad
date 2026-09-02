@@ -1,4 +1,4 @@
-import { Activity, ArrowUpRight, Play } from 'lucide-react';
+import { ArrowUpRight, Play } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="eyebrow">
           <span className="pulse-dot" /> Rover By Bentech 2
         </div>
-        <h1>Grow more.<br /><em>Waste less.</em></h1>
+        <h1>For the better future<br /><em>FarmAssist</em></h1>
         <p className="hero-text">
           Meet FarmAssist, a rover that helps you manage your crops with ease.
         </p>
@@ -37,23 +37,9 @@ export default function Hero() {
         <div className="visual-glow" />
         <div className="orbit orbit-one" />
         <div className="orbit orbit-two" />
-        <div className="visual-label label-top">
-          <span className="label-line" /> multispectral vision
-        </div>
-        <div className="visual-label label-bottom">
-          <span className="label-line" /> six-wheel terrain control
-        </div>
         <div className="robot-card">
           <div className="card-shine" />
           <img src="/images/image.png" alt="FarmAssist agricultural field robot" />
-        </div>
-        <div className="floating-data">
-          <span className="data-icon"><Activity size={16} /></span>
-          <span>
-            <small>Live scan</small>
-            <strong>2,840 plants / hr</strong>
-          </span>
-          <span className="data-status" />
         </div>
         <div className="scan-ring" />
       </div>

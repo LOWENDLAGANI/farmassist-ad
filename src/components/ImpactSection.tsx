@@ -1,4 +1,4 @@
-import { ArrowUpRight, ShieldCheck, Sun } from 'lucide-react';
+import { ArrowUpRight, Sun } from 'lucide-react';
 
 export default function ImpactSection() {
   return (
@@ -7,7 +7,7 @@ export default function ImpactSection() {
         <div className="eyebrow">
           <span className="pulse-dot" /> Built to make the farmer's life easier
         </div>
-        <h2>Provided By<br /><em>Minetallest</em></h2>
+        <h2>Technology that<br /><em>gives back.</em></h2>
         <p>
           FarmAssist helps farmer grow their crops more efficiently, so that farmer can make better decisions
         </p>
@@ -21,9 +21,7 @@ export default function ImpactSection() {
         <p><br />estimated farmers to be helped to make their farm more efficient</p>
         <div className="stat-line" />
       </div>
-      <div className="impact-badge">
-        <ShieldCheck size={18} /> <span>created by<br /><strong>Minetallest</strong></span>
-      </div>
+
     </section>
   );
 }
