@@ -5,9 +5,9 @@ export default function Monitoring() {
     <section className="monitoring-section" id="monitoring">
       <div className="section-heading">
         <div>
-          <h2>Know your fields<br /><em>at a glance.</em></h2>
+          <h2>Make your crops<br /><em>more smart</em></h2>
         </div>
-        <p>Every reading. Every row. One calm, clear view of what your crops need next.</p>
+        <p>You will always have access to real-time data and insights about your crops</p>
       </div>
 
       <div className="dashboard-shell live-embed">
@@ -21,7 +21,7 @@ export default function Monitoring() {
         </a>
         <iframe
           src="https://minetallest-farm-assist.vercel.app"
-          title="FarmAssist Live Dashboard"
+          title="FarmAssist Dashboard"
           className="live-iframe"
           loading="lazy"
           sandbox="allow-scripts allow-same-origin allow-forms allow-popups"

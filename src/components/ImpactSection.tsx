@@ -7,7 +7,7 @@ export default function ImpactSection() {
         <div className="eyebrow">
           <span className="pulse-dot" /> Built to make the farmer's life easier
         </div>
-        <h2>Technology that<br /><em>gives back.</em></h2>
+        <h2>Make your farm much better with<br /><em>FarmAssist</em></h2>
         <p>
           FarmAssist helps farmer grow their crops more efficiently, so that farmer can make better decisions
         </p>
